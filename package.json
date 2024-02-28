@@ -1,0 +1,22 @@
+{
+  "name": "desafio_nanacao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Orlando Flores",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jest": "^28.1.3",
+    "jsonwebtoken": "^9.0.2",
+    "supertest": "^6.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
